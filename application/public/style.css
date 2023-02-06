@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background: #acc7f0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section.chat_section {
+    width: 800px;
+    max-width: 90%;
+    background: #c6d8c5;
+    box-shadow: 0 10px 15px -3px ;
+}
+
+.brand h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(22, 6, 245);
+    margin-left: 10px;
+   
+}
+
+.message_area{
+height: 500px;
+padding: 16px;
+display: flex;
+flex-direction: column;
+overflow-y: auto;
+padding-top: 40px;
+}
+
+
+textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #f4f5f7;
+}
+
+.message{
+    padding:20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming{
+    background: #1a0270;
+    color:#fff ;
+}
+
+.outgoing{
+    background: #8687c5;
+    color:rgb(12, 11, 11) ;
+    margin-left: auto;
+}
+.message h4{
+    position: absolute;
+    top:-20px ;
+    left: 0;
+    color: rgb(24, 1, 1);
+    font-size: 14px;
+}
+
